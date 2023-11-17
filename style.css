@@ -1,0 +1,64 @@
+body{
+  background: rgb(23, 22, 22);
+  font-family: Arial;
+}
+
+h1{
+  color: white;
+}
+
+.graphic-button{
+  background-color: transparent;
+  font-size: 80px;
+  height: 180px;
+  width: 180px;
+  border: 5px Solid white;
+  border-radius: 200px;
+  cursor: pointer;
+  margin: 10px;
+  transition: font-size 0.25s;
+}
+
+label{
+  color: white;
+}
+
+.container{
+  display: flex;
+}
+
+.sub-container{
+  display: grid;
+  text-align: center;
+}
+
+.graphic-button:hover{
+  background-color: rgb(71, 71, 71);
+}
+
+.graphic-button:active{
+  font-size: 60px;
+}
+
+.reset-button,.auto-play{
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.reset-button:hover{
+  font-weight: bold;
+  padding: 8px 13px;
+}
+
+p{
+  color: white;
+}
+
+.who-win{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.who-pick-what{
+  font-size: 20px;
+}
